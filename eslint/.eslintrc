@@ -1296,7 +1296,12 @@
                 "ignoreStatic": false
             }
         ],
-        "@typescript-eslint/unified-signatures": "error",
+        "@typescript-eslint/unified-signatures": [
+            "error",
+            {
+                "ignoreDifferentlyNamedParameters": false
+            }
+        ],
         // TYPESCRIPT - EXTENSION RULES
         "@typescript-eslint/brace-style": [ // "brace-style": "off"
             "error",
