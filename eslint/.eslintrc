@@ -1422,7 +1422,8 @@
                 "ignoreDefaultValues": false,
                 "ignoreEnums": true,
                 "ignoreNumericLiteralTypes": false,
-                "ignoreReadonlyClassProperties": true
+                "ignoreReadonlyClassProperties": true,
+                "ignoreTypeIndexes": true
             }
         ],
         "@typescript-eslint/no-redeclare": [ // "no-redeclare": "off"
