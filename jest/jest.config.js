@@ -31,6 +31,8 @@ module.exports = {
     transform: {
         '^.+\\.(ts)$': 'ts-jest'
     },
-    timers: 'fake',
+    fakeTimers: {
+        "enableGlobally": true
+    },
     verbose: true
 };
