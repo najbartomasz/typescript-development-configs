@@ -492,6 +492,16 @@
             }
         ],
         "sort-keys": "off",
+        // [
+        //     "error",
+        //     "asc",
+        //     {
+        //         "caseSensitive": true,
+        //         "minKeys": 2,
+        //         "natural": true,
+        //         "allowLineSeparatedGroups": true
+        //     }
+        // ],
         "sort-vars": "off",
         "spaced-comment": [
             "error",
@@ -1471,7 +1481,8 @@
                 "enums": true,
                 "typedefs": true,
                 "ignoreTypeReferences": true,
-                "allowedNames": []
+                "allowedNames": [],
+                "allowNamedExports": false
             }
         ],
         "@typescript-eslint/no-useless-constructor": "error", // "no-useless-constructor": "off"
