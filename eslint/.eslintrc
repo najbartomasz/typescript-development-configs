@@ -1620,13 +1620,14 @@
             }
         ],
         "import/prefer-default-export": "off",
-        "import/max-dependencies": [
-            "error",
-            {
-                "max": 1,
-                "ignoreTypeImports": true
-            }
-        ],
+        "import/max-dependencies": "off",
+        // [
+        //     "error",
+        //     {
+        //         "max": 1,
+        //         "ignoreTypeImports": true
+        //     }
+        // ],
         "import/no-unassigned-import": "error",
         "import/no-named-default": "error",
         "import/no-default-export": "error",

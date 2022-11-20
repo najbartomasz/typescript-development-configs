@@ -82,7 +82,6 @@
         "jest/no-identical-title": "error",
         "jest/no-interpolation-in-snapshots": "error",
         "jest/no-jasmine-globals": "error",
-        "jest/no-jest-import": "error",
         "jest/no-mocks-import": "error",
         "jest/no-restricted-matchers": "error",
         "jest/no-standalone-expect": "error",
@@ -111,5 +110,9 @@
         "jest/valid-expect": "error",
         "jest/valid-expect-in-promise": "error",
         "jest/valid-title": "error"
-    }
+    },
+    // IMPORT - HELPFUL WARNINGS
+    "import/no-unused-modules": "off",
+    // IMPORT - MODULE SYSTEMS
+    "import/unambiguous": "off"
 }

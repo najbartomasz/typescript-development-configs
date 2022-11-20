@@ -11,11 +11,6 @@ module.exports = {
         'text'
     ],
     errorOnDeprecated: true,
-    globals: {
-        'ts-jest': {
-            isolatedModules: true
-        }
-    },
     moduleDirectories: [
         'node_modules', 'src'
     ],
@@ -29,7 +24,7 @@ module.exports = {
         '**/*.test.ts'
     ],
     transform: {
-        '^.+\\.(ts)$': 'ts-jest'
+        '^.+\\.(ts)$': [ 'ts-jest', { isolatedModules: true } ]
     },
     fakeTimers: {
         "enableGlobally": true
