@@ -63,8 +63,14 @@
         // ],
         "no-empty-character-class": "error",
         "no-empty-pattern": "error",
+        "no-empty-static-block": "error",
         "no-ex-assign": "error",
-        "no-fallthrough": "error",
+        "no-fallthrough": [
+            "error",
+            {
+                "allowEmptyCase": false
+            }
+        ],
         "no-func-assign": "error",
         "no-import-assign": "error",
         "no-inner-declarations": [
@@ -83,6 +89,7 @@
         ],
         "no-loss-of-precision": "off", // "error,
         "no-misleading-character-class": "error",
+        "no-new-native-nonconstructor": "error",
         "no-new-symbol": "error",
         "no-obj-calls": "error",
         "no-promise-executor-return": "error",
@@ -1481,7 +1488,7 @@
                 "enums": true,
                 "typedefs": true,
                 "ignoreTypeReferences": true,
-                "allowedNames": [],
+                // "allowedNames": [],
                 "allowNamedExports": false
             }
         ],
@@ -1542,8 +1549,8 @@
             "error",
             {
                 // "maxDepth": 1,
-                "ignoreExternal": true,
-                "allowUnsafeDynamicCyclicDependency": false
+                "ignoreExternal": true
+                // "allowUnsafeDynamicCyclicDependency": false
             }
         ],
         "import/no-useless-path-segments": [
@@ -1608,8 +1615,8 @@
         "import/newline-after-import": [
             "error",
             {
-                "count": 1,
-                "considerComments": true
+                "count": 1
+                // "considerComments": true
             }
         ],
         "import/prefer-default-export": "off",
