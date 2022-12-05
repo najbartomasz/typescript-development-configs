@@ -109,10 +109,10 @@
         "jest/valid-describe-callback": "error",
         "jest/valid-expect": "error",
         "jest/valid-expect-in-promise": "error",
-        "jest/valid-title": "error"
-    },
-    // IMPORT - HELPFUL WARNINGS
-    "import/no-unused-modules": "off",
-    // IMPORT - MODULE SYSTEMS
-    "import/unambiguous": "off"
+        "jest/valid-title": "error",
+        // IMPORT - HELPFUL WARNINGS
+        "import/no-unused-modules": "off",
+        // IMPORT - MODULE SYSTEMS
+        "import/unambiguous": "off"
+    }
 }

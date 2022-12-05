@@ -962,7 +962,6 @@
                     "private-static-field",
                     "private-decorated-field",
                     "private-instance-field",
-                    "private-abstract-field",
                     "private-field",
 
                     "static-field",
@@ -993,7 +992,6 @@
                     "private-static-method",
                     "private-decorated-method",
                     "private-instance-method",
-                    "private-abstract-method",
                     "private-method",
 
                     "static-method",
@@ -1580,8 +1578,7 @@
             "error",
             {
                 "missingExports": true,
-                "unusedExports": true,
-
+                "unusedExports": true
             }
         ],
         // IMPORT - MODULE SYSTEMS
