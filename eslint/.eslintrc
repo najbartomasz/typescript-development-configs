@@ -8,6 +8,11 @@
     "settings": {
         "jest": {
             "version": "latest"
+        },
+        "import/resolver": {
+            "typescript": {
+                "alwaysTryTypes": true
+            }
         }
     },
     "parser": "@typescript-eslint/parser",
@@ -1531,7 +1536,7 @@
         "import/no-unresolved": [
             "error",
             {
-                "caseSensitiveStrict": true
+                "caseSensitiveStrict": false
             }
         ],
         "import/named": "error",
