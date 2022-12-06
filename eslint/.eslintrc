@@ -1605,7 +1605,7 @@
         "import/order": [
             "error",
             {
-                "groups": [ "index", "sibling", "parent", "internal", "external", "builtin", "object", "type" ],
+                "groups": [ "type", "index", "sibling", "parent", "internal", "external", "builtin", "object" ],
                 "newlines-between": "always"
             }
         ],
