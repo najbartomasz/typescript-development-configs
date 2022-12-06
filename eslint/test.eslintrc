@@ -110,6 +110,8 @@
         "jest/valid-expect": "error",
         "jest/valid-expect-in-promise": "error",
         "jest/valid-title": "error",
+        // IMPORT - STATIC ANALISYS
+        "import/no-relative-parent-imports": "off",
         // IMPORT - HELPFUL WARNINGS
         "import/no-unused-modules": "off",
         // IMPORT - MODULE SYSTEMS
