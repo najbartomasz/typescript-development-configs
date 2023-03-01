@@ -1347,16 +1347,17 @@
             }
         ],
         "@typescript-eslint/default-param-last": "error", // "default-param-last": "off"
-        "@typescript-eslint/dot-notation": [ //"dot-notation": "off"
-            "error",
-            {
-                "allowKeywords": false,
-                "allowPattern": "",
-                "allowPrivateClassPropertyAccess": false,
-                "allowProtectedClassPropertyAccess": false,
-                "allowIndexSignaturePropertyAccess": false
-            }
-        ],
+        "@typescript-eslint/dot-notation": "off",
+        // [ //"dot-notation": "off"
+        //     "error",
+        //     {
+        //         "allowKeywords": false,
+        //         "allowPattern": "",
+        //         "allowPrivateClassPropertyAccess": false,
+        //         "allowProtectedClassPropertyAccess": false,
+        //         "allowIndexSignaturePropertyAccess": false
+        //     }
+        // ],
         "@typescript-eslint/func-call-spacing": [ // "func-call-spacing": "off"
             "error",
             "never"
