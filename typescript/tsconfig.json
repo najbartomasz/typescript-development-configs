@@ -17,6 +17,7 @@
         "removeComments": true,
         "skipLibCheck": true,
         "strict": true,
-        "target": "ESNext"
+        "target": "ESNext",
+        "useUnknownInCatchVariables": true
     }
 }

@@ -1,6 +1,6 @@
 {
     "env": {
-        "es2021": true,
+        "es2022": true,
         "jest": true
         // "node": true
         // "browser": true
@@ -142,7 +142,7 @@
             "error",
             {
                 "setWithoutGet": true,
-                "getWithoutSet": true
+                "getWithoutSet": false
             }
         ],
         "arrow-body-style": [
@@ -265,7 +265,7 @@
         ],
         "max-params": [
             "error",
-            4
+            5
         ],
         "max-statements": [
             "error",
@@ -537,11 +537,11 @@
         ],
         "array-bracket-spacing": [
             "error",
-            "always",
+            "never",
             {
-                "arraysInArrays": true,
-                "objectsInArrays": true,
-                "singleValue": true
+                "arraysInArrays": false,
+                "objectsInArrays": false,
+                "singleValue": false
             }
         ],
         "array-element-newline": [
@@ -1004,7 +1004,7 @@
                     "abstract-method",
                     "decorated-method",
                     "method"
-                  ]
+                ]
             }
         ],
         "@typescript-eslint/method-signature-style": [
@@ -1259,7 +1259,7 @@
             "error",
             {
                 "checkIntersections": true,
-                "checkUnions": true,
+                "checkUnions": false,
                 "groupOrder": [
                     "named",
                     "keyword",
@@ -1448,7 +1448,7 @@
             {
                 "detectObjects": true,
                 "enforceConst": true,
-                "ignoreDefaultValues": false,
+                "ignoreDefaultValues": true,
                 "ignoreEnums": true,
                 "ignoreNumericLiteralTypes": false,
                 "ignoreReadonlyClassProperties": true,
@@ -1538,7 +1538,7 @@
         "import/no-unresolved": [
             "error",
             {
-                "caseSensitiveStrict": false
+                "caseSensitiveStrict": true
             }
         ],
         "import/named": "error",
@@ -1586,6 +1586,7 @@
             {
                 "missingExports": true,
                 "unusedExports": true
+
             }
         ],
         // IMPORT - MODULE SYSTEMS
@@ -1637,7 +1638,7 @@
         "import/no-default-export": "error",
         "import/no-named-export": "off",
         "import/no-anonymous-default-export": "error",
-        "import/group-exports": "error",
+        "import/group-exports": "off",
         "import/dynamic-import-chunkname": "error"
     }
 }
